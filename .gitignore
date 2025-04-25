@@ -1,0 +1,43 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+
+# Environment Variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env* # Catches .env, .env.example, etc. (optional, be careful with sensitive files)
+
+# Logs and Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs
+
+# macOS
+.DS_Store
+.DS_*
+
+# IDE and Editor Specific
+*.sublime*
+
+# Backup Files
+**/*.backup.*
+**/*.back.*
+
+# Dependency Managers (already covered by /node_modules)
+# bower_components
+
+# Common Design Files
+psd
+thumb
+sketch
